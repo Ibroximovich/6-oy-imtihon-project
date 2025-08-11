@@ -38,7 +38,7 @@ const Login = () => {
       button: <AppleIcon />,
     },
     {
-      id: 1,
+      id: 3,
       button: <GoogleIcon />,
     },
   ];
