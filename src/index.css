@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+
+
+.containers{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../src/assets/fonts/plus-jakarta-sans-v11-latin-regular.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../src/assets/fonts/plus-jakarta-sans-v11-latin-700.woff2') format('woff2'); 
+}
+
+body{
+  font-family: "Plus Jakarta Sans",sans-serif;
+  
+}
+
+.hero-bg{
+  background-image: url("./assets/images/hero-bg-img.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.h2{
+  color: linear-gradient(94.56deg, #FFFFFF 79.99%, #21242F 102.65%);
+}
+.bg{
+  background: linear-gradient(159.02deg, #0F123B 14.25%, #090D2E 56.45%, #020515 86.14%);
+}
+.input{
+border-image-source: radial-gradient(69.43% 69.43% at 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+radial-gradient(60% 51.57% at 50% 50%, #582CFF 0%, rgba(88, 44, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+radial-gradient(54.8% 53% at 50% 50%, #151515 0%, rgba(21, 21, 21, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+backdrop-filter: blur(42px)
+}
+
+.text-bg{
+  color: linear-gradient(97.89deg, #FFFFFF 70.67%, rgba(117, 122, 140, 0) 108.55%);
+}
+.header {
+backdrop-filter: blur(42px);
+}
+.br{
+border-image-source: radial-gradient(69.43% 69.43% at 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.b{
+
+border-image-source: linear-gradient(90deg, rgba(224, 225, 226, 0) 0%, #E0E1E2 49.52%, rgba(224, 225, 226, 0.15625) 99.04%);
+}
+.text{
+  color: linear-gradient(97.89deg, #FFFFFF 70.67%, rgba(117, 122, 140, 0) 108.55%);
+}
+.active{
+  background-color: #1A1F37;
+  box-shadow: 0px 3.5px 5.5px 0px #00000005;
+}
+.bg-input{
+  background-image: url(./assets/images/Icon.svg);
+  background-repeat: no-repeat;
+  background-position: 11px center;
+}
+.bg-img{
+  background-image: url("./assets/images/bg-img.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.sh{
+  box-shadow: 0px 3.5px 5.5px 0px #00000005;
+}
+.tables{
+  background: linear-gradient(126.97deg, rgba(6, 11, 40, 0.74) 28.26%, rgba(10, 14, 35, 0.71) 91.2%);
+
+}
+

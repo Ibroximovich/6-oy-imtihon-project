@@ -1,0 +1,15 @@
+import HerobgImg from "./hero-bg-img.png"
+import LoadingImg from "./Loading-img.png"
+import Img1 from "./Img1.png"
+import Img2 from "./Img2.png"
+import Img3 from "./Img3.png"
+import Img4 from "./Img4.png"
+import Img5 from "./Img5.png"
+import Img6 from "./Img6.png"
+import Img7 from "./Img7.png"
+import HeaderImg from "./navbar-img.png"
+import HeroImg from "./hero-img.png"
+import TableImg1 from "./Esthera-Jackson.svg"
+import Loaurent from "./Laurent-img.svg"
+
+export{HerobgImg,LoadingImg,Img1,Img2,Img3,Img4,Img5,Img6,Img7,HeaderImg,HeroImg,TableImg1,Loaurent}
